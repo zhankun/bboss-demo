@@ -21,6 +21,7 @@ class EsDemoApplicationTests {
         EsUser esUser = new EsUser();
         esUser.setUserId(100L);
         esUser.setBirthday(new Date());
+
         esUser.setUserNick("测试bboss");
         esUser.setHeadPic("www.baidu.com");
         esUser.setSex(1);
